@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    max-width: 65px;
+    max-height: 65px;
+    border-radius: 50%;
+    object-fit: scale-down;
+}
+main{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    display: initial;
+}
+#textarea_code{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid black;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+#buttons button{
+    width: 25%;
+    margin: 0 5px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#play_Code{
+    background-color: red;
+}
+#remove_Code{
+    background-color: black;
+}
+#result{
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#code_Value{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid black;
+    text-align: left;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #f8f9fa;
+}
+#me{
+    text-align: center;
+    border-bottom: 2px solid rgb(250,90,90);
+    padding: 10px 0;
+}
+#text{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+#author{
+    text-align: center;
+}
+#author a{
+    margin: 0 10px;
+}
